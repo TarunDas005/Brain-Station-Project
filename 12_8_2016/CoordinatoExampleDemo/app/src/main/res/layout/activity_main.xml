@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bs148.coordinatoexampledemo.MainActivity">
+
+    <Button
+        android:onClick="simpleCoorDinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Coordinator Layout"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"/>
+    <Button
+        android:onClick="googleIoDetailExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Io Detail Example"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"/>
+    <Button
+        android:onClick="materialUpProfileExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material Up Profile Example"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"/>
+</LinearLayout>
